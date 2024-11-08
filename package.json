@@ -1,0 +1,12 @@
+{
+  "name": "lr7-unit-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "github-personal:Mikki21/LR7-unit-tests.git",
+  "author": "Mikki21 <mikki.s.fails@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "jest": "^29.7.0"
+  }
+}
