@@ -5,8 +5,17 @@
   "repository": "github-personal:Mikki21/LR7-unit-tests.git",
   "author": "Mikki21 <mikki.s.fails@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
-    "axios": "^1.7.7",
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.25.9",
     "jest": "^29.7.0"
+  },
+  "scripts": {
+    "test:example": "jest --coverage -- Example ",
+    "test:var1": "jest --coverage -- var1",
+    "test:var2": "jest --coverage -- var2"
   }
 }
